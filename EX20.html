@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>PORTFOLIO</title>
+ <style>
+body{
+ background-color: black;
+ background: linear-gradient(to right, rgba(3, 3, 3, 10)  , rgba(109, 248, 248, 0.5) );;
+ overflow-x: hidden;
+}
+.header-navigation{
+
+ margin-top: 20px;
+ width:100vw;
+ height: 30px; 
+ 
+}
+.nav-content{
+
+ color: white;
+ font-size: 99%;
+ list-style-type: none;
+ padding: 1.3%;
+ padding-right: 10%;
+ overflow:hidden;
+ background: linear-gradient(to right,rgba(109, 248, 248, 0.5), rgba(3, 3, 3, 10) );
+ left: 0px;
+ font-weight: 800;
+}
+.li-items{
+ float: right;
+ position: relative;
+ margin: 0 0 0 45px;
+ cursor: pointer;
+ }
+.li-items::after{
+ content: '';
+ width: 0%;
+ height: 2px;
+ background: #008E89;
+ display:block;
+ margin: auto;
+ transition: 0.5s;
+ }
+.li-items:hover::after{
+
+ 
+ width: 100%;
+ pointer-events: auto;
+}
+.li-items a{
+ text-decoration: none;
+ color: white;
+}
+.li-items a:active{
+ color: #9ADCFF;
+ background-color: #ECB390;
+ box-shadow: 7px 4px 10px 2px #ECB390;
+}
+h2{
+ font: normal normal normal 45px/59px 'Permanent Marker';
+ align-items: left;
+background: linear-gradient(#ECB390,#31fff8);
+border: 3px solid crimson;
+border-radius: 90px;
+padding-top: 9px;
+padding-right: 9px;
+padding-left: 10px;
+ }
+p{
+ font: normal normal normal 30px/45px 'Satisfy';
+ align-items: center;
+ padding-left: 25px;
+}
+img{
+ width: 100px;
+
+}
+.card_me{
+ background-color: linear-gradient(to right,rgba(109, 248, 248, 0.5), rgba(3, 3, 3, 10) );
+ border-radius: 50px;
+ box-shadow: 7px 4px 10px 2px black;
+ position: relative;
+ width: 1480px;
+ height: 500px;
+ display: flex;
+ justifY-content: center;
+ align-items: center;
+ margin-top: 80px;
+ margin-left: 10px;
+}
+.card_obj{
+   background-color: linear-gradient(to right,rgba(109, 248, 248, 0.5), rgba(3, 3, 3, 10) );
+ border-radius: 50px;
+ box-shadow: 7px 4px 10px 2px black;
+ position: relative;
+ width: 1480px;
+ height: 500px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ margin-top: 120px;
+ margin-left: 10px;
+}
+.card_edu{
+   background-color: linear-gradient(to right,rgba(109, 248, 248, 0.5), rgba(3, 3, 3, 10) );
+ box-shadow: 7px 4px 10px 2px black;
+ border-radius: 50px;
+ position: relative;
+ width: 1480px;
+ height: 500px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ margin-top: 120px;
+ margin-left: 10px;
+}
+/* .card_proj{
+ background-color: #D9D7F1;
+ box-shadow: 7px 4px 10px 2px black;
+ position: relative;
+ width: 1480px;
+ height: 500px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ margin-top: 120px;
+ margin-left: 10px;
+} */
+/* .card_exp{
+ background-color: #FFC996;
+ box-shadow: 7px 4px 10px 2px black;
+ position: relative;
+ width: 1480px;
+ height: 500px;
+ display: flex;
+
+ justify-content: center;
+ align-items: center;
+ margin-top: 120px;
+ margin-left: 10px;
+} */
+.card_skil{
+background-color: linear-gradient(to right,rgba(109, 248, 248, 0.5), rgba(3, 3, 3, 10) );
+ 
+ border-radius: 50px;
+ box-shadow: 7px 4px 10px 2px black;
+ position: relative;
+ width: 1480px;
+ height: 500px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ margin-top: 120px;
+ margin-left: 10px;
+}
+.card_ach{
+ background-color: linear-gradient(to right,rgba(109, 248, 248, 0.5), rgba(3, 3, 3, 10) );;
+ border-radius: 50px;
+ box-shadow: 7px 4px 10px 2px black;
+ position: relative;
+ width: 1480px;
+ height: 500px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ margin-top: 120px;
+ margin-left: 10px;
+
+}
+.card_con{
+ background-color: linear-gradient(to right,rgba(109, 248, 248, 0.5), rgba(3, 3, 3, 10) );
+ border-radius: 50px;
+ box-shadow: 7px 4px 10px 2px black;
+ position: relative;
+ width: 1480px;
+ height: 500px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ margin-top: 120px;
+ 
+}
+
+ </style>
+<body class="body-style">
+ <nav class="header-navigation">
+ <ul class="nav-content">
+   
+ <li class="li-items" ><a href="#i8">CONTACT</a></li>
+ <li class="li-items" ><a href="#i6">SKILLS</a></li>
+ <li class="li-items" ><a href="#i3">EDUCATION</a></li>
+ <li class="li-items" ><a href="#i2">OBJECTIVE</a></li>
+ <li class="li-items" ><a href="#i1">ABOUT ME</a></li>
+ </ul>
+ 
+ </nav>
+ <div id=i1 class="card_me">
+ <img src="./images/me.png" alt="">
+ <h2>PERSONAL DETAILS</h2>
+ <p>Hello!! <br> My name is <span>Anya Rawat </span>, BTech Third Year Undergraduate <br>
+ pursuing Bachelor's degree from Banasthali Vidyapith. <br>
+ I am from bhiwadi, Rajasthan. <br>
+ </p>
+ </div>
+ <div id=i2 class="card_obj">
+ <img src="./images/obj.png" alt="">
+
+ <h2>OBJECTIVE</h2>
+ <p>Experienced with JAVA and have foundational understanding of Python. <br>
+ Developed minor project on web technologies. <br>
+ Dedicated to become a successful individual by channelizing my technical knowledge <br>
+ and skills to ensure personal and professional growth and to contribute to the <br>
+ prosperity of the organization.<br>
+ </p>
+ </div>
+ <div id=i3 class="card_edu">
+ <img src="./images/edu.png" alt="">
+ <h2>EDUCATION</h2>
+ <p>Banasthali Vidyapith, Rajasthan <br>
+ Bachelor Of Technology (IT) <br>
+ 2020 - 2024 (Pursuing) <br>
+ CGPA- 8.46/10 upto IV Semester <br>
+ </p>
+ <p>
+ UCSKM PUBLIC SCHOOL, Bhiwadi,Rajasthan <br>
+ Higher Secondary(CBSE)<br>
+ Year of completion- 2020<br>
+ Result- 84.4%<br>
+ </p>
+ <p>
+    UCSKM PUBLIC SCHOOL, Bhiwadi,Rajasthan  <br>
+ Matriculation(CBSE) <br>
+ Year of completion- 2018<br>
+ Result- 92.67%. <br>
+ </p>
+
+ </div>
+ <!-- <div id=i4 class="card_proj">
+ <img src="./images/proj.png" alt="">
+ <h2>PROJECT</h2>
+ <p>Police Station Management System <br>
+ Project to store information of the police station written in C/C++ language.
+ </p>
+ <p>
+ Web Development Project <br>
+ Designed and implemented webpage, streamlining the use of HTML & CSS, depicting a tribute page. 
+<br>
+ https://neerjabhanot-truehumanspirit.netlify.app
+ </p>
+ </div> -->
+
+
+ <!-- <div id=i5 class="card_exp">
+ <img src="./images/exp.png" alt="">
+ <h2>EXPERIENCE</h2>
+ <p>
+ -Kurinji Hacks, Mentor <br>
+ -Unschool, Sales and Marketing Intern<br>
+ -Infosquad, Graphic Intern<br>
+ -BTech IT, Class Representative<br>
+ </p>
+ </div> -->
+ <div id=i6 class="card_skil">
+ <img src="./images/skill.png" alt="">
+
+ <h2>SKILLS</h2>
+ <p><u>TECHNICAL</u><br>
+  - HTML5 <br> - CSS3 <br> - JAVASRCIPT 
+  <BR> - XML <br>- JAVA <br></p>
+  <br><p>
+ <u>OTHER</u> <br>
+-Leadership <br>
+ -Agile and decision making <br>
+-Critical thinking <br>
+-Aptness of management <br>
+-Graphic Designing <br>
+ </p>
+ </div>
+ <div id=i7 class="card_ach">
+ <img src="./images/ach.png" alt="">
+ <h2>ACHIEVEMENTS</h2>
+ <p>
+ - Certificate of Excellence -Unschool India<br>
+ - Qualifying Certificate National Engineering Olympiad 3.0<br>
+ - Qualifying Certificate National Engineering Olympiad 5.0<br>
+ - Qualified University Level National Environment Youth Parliament Competition<br>
+ </p>
+ </div>
+ <div id=i8 class="card_con">
+ <img src="./images/cont.png" alt="">
+ <h2>CONTACT</h2>
+ <p>
+  Phone: +91 8529878881 <br>
+ Email: btbti20206_anya@banasthali.in <br>
+   &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp rawatanya2129@gmail.com 
+
+ </p>
+ </div>
+</body>
+</html>
